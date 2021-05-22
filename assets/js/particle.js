@@ -3,7 +3,7 @@
 particlesJS('particles-js', {
 	particles: {
 		number: {
-			value: 140,
+			value: 160,
 			density: {
 				enable: true,
 				value_area: 800
@@ -13,7 +13,7 @@ particlesJS('particles-js', {
 			value: [ '#2EB67D', '#ECB22E', '#E01E5B', '#36C5F0' ]
 		},
 		shape: {
-			type: 'circle',
+			type: 'star',
 			stroke: {
 				width: 0,
 				color: '#fff'
@@ -33,7 +33,7 @@ particlesJS('particles-js', {
 			random: false,
 			anim: {
 				enable: false,
-				speed: 1,
+				speed: 3,
 				opacity_min: 0.1,
 				sync: false
 			}
@@ -79,7 +79,7 @@ particlesJS('particles-js', {
 			},
 			onclick: {
 				enable: true,
-				mode: 'push'
+				mode: 'repulse'
 			}
 		},
 		modes: {
